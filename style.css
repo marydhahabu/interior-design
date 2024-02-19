@@ -1,0 +1,254 @@
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden;
+}
+a{
+    text-decoration:none;
+}
+svg{
+    padding:1px;
+    width:20px;
+    height:20px;
+}
+/*navbar*/
+nav{
+    font-size:2.5vmin;
+    display: flex;
+    justify-content: space-between;
+}
+nav .logo{
+    padding:20px;
+}
+.navlink{
+    padding:30px;
+    display: flex;
+    list-style-type: none;
+}
+li a{
+    color:rgb(77, 75, 75);
+    padding:30px;
+}
+/*header*/
+header{
+    background-image:linear-gradient(grey);
+    background-image:url(images/design.jpg);
+    background-position:center;
+    background-size: cover;
+    width:100vw;
+    height:90vh;
+    display: flex;
+    align-items: center;
+}
+.logo svg{
+    margin-top:10px;
+    width:30px;
+    height:30px;
+}
+.headercontent{
+    width:50%;
+    padding:90px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.headercontent h1{
+    color:white;
+    font-size:5.6vmin;
+}
+.headercontent p{
+    margin:30px;
+    color: beige;
+    font-size:20px;
+font-weight: bold;
+}
+.headercontent .btn{
+    background-color:black;
+    border-radius:5px;
+    text-align:center;
+    width:120px;
+    height:30px;
+    color:whitesmoke;
+}
+/*considers*/
+.considers{
+    margin:100px;
+    width:90vw;
+    height:200px;
+    display:flex;
+}
+.considers h4{
+    font-size:22px;
+}
+.considers p{
+margin-top:10px;
+}
+.considers a{
+    color: beige;
+}
+#considers{
+    font-family:arial;
+    margin-top:20px;
+    text-align: center;
+    padding-top:5px;
+    width:120px;
+    height:30px;
+    border-radius:5px;
+    background-color:grey;
+}
+/*Art*/
+.art{
+    width:90vw;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    padding:20px 90px;
+    width: 50%;
+    margin:30px;
+}
+.text h1{
+    font-size:6vmin;
+    margin:17px;
+}
+.text p{
+    margin: 17px;
+    line-height:25px;
+}
+.call{
+    display: flex;
+}
+.call svg{
+    width:30px;
+    height:30px;
+    border-radius:50%;
+    margin-top:28px;
+    background-color:lightgrey;
+}
+#button{
+    background-color: black;
+    width:130px;
+    height:30px;
+    border-radius:7px;
+    text-align: center;
+}
+#button a{
+    color: beige;
+}
+.image img{
+width:500px;
+height:600px;
+border-bottom-left-radius:190px;
+border-top-right-radius:190px ;
+}
+/*Thoughts*/
+.peoplesay{
+    margin:100px 80px;
+    width:87vw;
+    height:75vh;
+    background-color:lightgrey;
+    border-radius:20px;
+}
+.peoplesay h1{
+text-align: center;
+padding:16px;
+font-size:5vmin;
+color:rgba(73,73,126);
+}
+.thought{
+    display: flex;
+}
+.person1,.person2,.person3{
+    background-color:beige;
+    width:300px;
+    height:300px;
+    padding:50px;
+    margin:40px auto;
+    border-radius:60px;
+}
+.person1 p,.person2 p,.person3 p{
+    display:flex;
+    padding:30px;
+}
+.thought span{
+    padding:10px;
+}
+.person1 img ,.person2 img ,.person3 img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+}
+/*brands*/
+.brand h2{
+    text-align: center;
+    margin:20px;
+    color:rgba(73,73,126);
+}
+.brands{
+    margin-top:60px;
+    display:flex;
+    width:90vw;
+    height:200px;
+}
+.brands img{
+    width:200px;
+    height:200px;
+    margin-inline:50px;
+}
+/*contacts*/
+.contact{
+    margin-top:70px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    background-color:lightgray;
+    height:80vh;
+    width:100vw;
+}
+.info{
+    display:flex;
+    margin:10px;
+}
+.contact .span{
+    padding:2px;
+}
+.name,.phone{
+    padding:10px;
+    width:300px;
+    height:50px;
+    border:1px solid grey;
+    margin:10px;
+    border-radius:7px;
+}
+.email{
+    padding:10px;
+    width:620px;
+    height:50px;
+    border:1px solid grey;
+    border-radius:7px;
+}
+.message{
+    margin:13px;
+    padding:10px;
+    width:620px;
+    height:300px;
+    border:1px solid grey ;
+    border-radius:7px;
+}
+.submit{
+    border-radius:7px;
+    padding-left:300px;
+    padding-top:10px;
+    width:620px;
+    height:50px;
+    border:1px solid grey;
+}
+
+
+   
